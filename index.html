@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domínio à Venda</title>
+    <style>
+        :root {
+            --bg: #0f0f14; /* Tom escuro similar ao terminal kitty/hyprland */
+            --fg: #cdd6f4;
+            --accent: #89b4fa;
+            --secondary: #313244;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--fg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            padding: 2rem;
+            border: 1px solid var(--secondary);
+            border-radius: 12px;
+            max-width: 500px;
+        }
+
+        h1 {
+            color: var(--accent);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            display: block;
+        }
+
+        .btn {
+            background-color: var(--accent);
+            color: var(--bg);
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: opacity 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: var(--secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>Este domínio está disponível</p>
+        <h1>seudominio.com.br</h1>
+        
+        <span class="price">Preço sob consulta</span>
+
+        <a href="mailto:seuemail@exemplo.com?subject=Interesse no domínio seudominio.com.br" class="btn">
+            Entrar em contato
+        </a>
+
+        <footer>
+            Transação segura e transferência imediata.
+        </footer>
+    </div>
+
+</body>
+</html>
